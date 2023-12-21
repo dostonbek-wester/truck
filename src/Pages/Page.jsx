@@ -4,8 +4,8 @@ import foto from "../../src/assets/img1.png"
 
 const Page = () => {
     return (
-        <div className="navbar-page">
-
+        <>
+        
             <div className="navbar">
 
                 <img className="img-nav" src={foto} alt="" />
@@ -18,6 +18,8 @@ const Page = () => {
                 </a>
                
             </div>
+        <div className="navbar-page">
+
 
             <h1>Affordable truck <br /> service </h1>
             <h3> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br /> Culpa neque quisquam ratione a voluptates commodi <br /> earum nulla atque porro quas.</h3>
@@ -109,6 +111,8 @@ const Page = () => {
 
 
         </div>
+        </>
+
     )
 }
 
